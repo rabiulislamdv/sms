@@ -15,3 +15,4 @@ use App\Http\Controllers\WebController;
 */
 
 Route::get('/', [WebController::class,'index'])->name('home');
+Route::get('/course-detail', [WebController::class,'detail'])->name('course-detail');
