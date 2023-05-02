@@ -15,10 +15,10 @@
     <div class="container">
         <a href="" class="navbar-brand">LOGO</a>
         <ul class="navbar-nav">
-            <li><a href="" class="nav-link">Home</a></li>
+            <li><a href="{{route('home')}}" class="nav-link">Home</a></li>
             <li><a href="" class="nav-link">All Course</a></li>
-            <li><a href="" class="nav-link">Login</a></li>
-            <li><a href="" class="nav-link">Registration</a></li>
+            <li><a href="{{route('user-login')}}" class="nav-link">Login</a></li>
+            <li><a href="{{route('user-register')}}" class="nav-link">Registration</a></li>
         </ul>
     </div>
 
